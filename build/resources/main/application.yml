@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    s3:
+      bucket: users-profile-bucket
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
+    credentials:
+      instance-profile: true
+
+spring:
+  profiles:
+    include:
+      - aws
