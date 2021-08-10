@@ -1,10 +1,11 @@
 package paidagogos.speck.map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import paidagogos.speck.model.PlaceInfo;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Optional;
 
@@ -18,9 +19,8 @@ public class PlaceInfoController {
         this.placeInfoService = placeInfoService;
     }
 
-    @GetMapping("/map")
-    public Optional<List<PlaceInfo>> placeInfo() {
-        return placeInfoService.getPlaceInfo();
+    @PostMapping("/map")
+    public Optional<List<PlaceInfo>> placeInfo(@RequestBody LinkedHashMap<String, String> body) {
+        return placeInfoService.getPlaceInfo(body.get("email"));
     }
-
 }

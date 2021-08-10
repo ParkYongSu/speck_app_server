@@ -1,6 +1,6 @@
-package paidagogos.speck.model;
+package paidagogos.speck.map;
 
-import paidagogos.speck.map.OperationTime;
+import java.util.List;
 
 public class PlaceInfo {
     private String code;
@@ -12,6 +12,7 @@ public class PlaceInfo {
     private int todayVisitor;
     private int num;
     private OperationTime operationTime;
+    private List<PlaceImage> placeImage;
 
     public String getCode() {
         return code;
@@ -83,5 +84,13 @@ public class PlaceInfo {
 
     public void setOperationTime(OperationTime operationTime) {
         this.operationTime = operationTime;
+    }
+
+    public List<PlaceImage> getPlaceImage() {
+        return placeImage;
+    }
+
+    public void setPlaceImage(List<PlaceImage> placeImage) {
+        this.placeImage = placeImage;
     }
 }
