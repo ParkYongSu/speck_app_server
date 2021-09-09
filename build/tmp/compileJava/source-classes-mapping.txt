@@ -2,10 +2,14 @@ paidagogos/speck/map/OperationTime.java
  paidagogos.speck.map.OperationTime
 paidagogos/speck/SpeckApplication.java
  paidagogos.speck.SpeckApplication
+paidagogos/speck/push_notification/check_token/CheckTokenRepository.java
+ paidagogos.speck.push_notification.check_token.CheckTokenRepository
 paidagogos/speck/update/character/CharacterController.java
  paidagogos.speck.update.character.CharacterController
 paidagogos/speck/sign_up/SignUpService.java
  paidagogos.speck.sign_up.SignUpService
+paidagogos/speck/push_notification/SendPushNotification.java
+ paidagogos.speck.push_notification.SendPushNotification
 paidagogos/speck/push_notification/FirebaseCloudMessageService.java
  paidagogos.speck.push_notification.FirebaseCloudMessageService
 paidagogos/speck/login/LoginRepository.java
@@ -14,6 +18,8 @@ paidagogos/speck/update/profile/ProfileController.java
  paidagogos.speck.update.profile.ProfileController
 paidagogos/speck/login/UserInfo.java
  paidagogos.speck.login.UserInfo
+paidagogos/util/Util.java
+ paidagogos.util.Util
 paidagogos/speck/update/profile/Profile.java
  paidagogos.speck.update.profile.Profile
 paidagogos/speck/map/PlaceInfoService.java
@@ -54,6 +60,8 @@ paidagogos/speck/sign_up/Terms.java
  paidagogos.speck.sign_up.Terms
 paidagogos/speck/update/gender/GenderRepository.java
  paidagogos.speck.update.gender.GenderRepository
+paidagogos/speck/push_notification/TodoAuthDate.java
+ paidagogos.speck.push_notification.TodoAuthDate
 paidagogos/speck/account/Account.java
  paidagogos.speck.account.Account
 paidagogos/speck/map/PlaceInfoRepository.java
@@ -64,6 +72,8 @@ paidagogos/speck/update/character/CharacterRepository.java
  paidagogos.speck.update.character.CharacterRepository
 paidagogos/speck/map/PlaceImage.java
  paidagogos.speck.map.PlaceImage
+paidagogos/speck/push_notification/check_token/CheckTokenController.java
+ paidagogos.speck.push_notification.check_token.CheckTokenController
 paidagogos/speck/login/LoginController.java
  paidagogos.speck.login.LoginController
 paidagogos/speck/update/gender/GenderService.java
@@ -74,6 +84,8 @@ paidagogos/speck/withdraw/WithdrawController.java
  paidagogos.speck.withdraw.WithdrawController
 paidagogos/speck/sign_up/SignUpController.java
  paidagogos.speck.sign_up.SignUpController
+paidagogos/speck/push_notification/check_token/CheckTokenService.java
+ paidagogos.speck.push_notification.check_token.CheckTokenService
 paidagogos/speck/update/phone_number/PhoneNumberRepository.java
  paidagogos.speck.update.phone_number.PhoneNumberRepository
 paidagogos/speck/update/profile/ProfileRepository.java
